@@ -3,6 +3,16 @@
 Rainfall prediction comparing a baseline SVM on the full feature space against
 an SVM trained on a Binary PSO selected subset.
 
+## Open it
+
+Training and evaluation notebook:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alimusy/weather-pso-svm/blob/main/notebooks/weather_pso_svm.ipynb)
+
+Deploy the app yourself, one click, free:
+
+[![Deploy on Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=Alimusy/weather-pso-svm&branch=main&mainModule=app/app.py)
+
 ## Method
 
 1. Median imputation, one-hot encoding and standardisation, all fitted on the
